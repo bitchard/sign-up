@@ -29,7 +29,7 @@ html {
 }
 
 .banner {
-    position: absoulte;
+    position: absolute;
     top: 25%;
     left: -30rem;
     text-align: center;
@@ -81,4 +81,55 @@ html {
     letter-spacing: 0.1rem;
     color: #fff;
     cursor: pointer;
+}
+
+.signup-form {
+    width: 60rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10rem 0;
+    transition: left 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.container.change .signup-form {
+    left: 40rem;
+}
+
+.signup-form h1 {
+    font-size: 4rem;
+    color: #3aaf9f;
+}
+
+.social-form h1 {
+    font-size: 4rem;
+    color: #3aaf9f;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media i {
+    width: 4rem;
+    height: 4 rem;
+    border: 0.1rem solid #777;
+    border-radius: 50%;
+    display: felx;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    font-size: 2rem;
+    color: #555;
+}
+
+.signup-form p {
+    font-size: 1.8rem;
+    color: #555;
+    margin-bottom: 2rem;
 }
